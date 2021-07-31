@@ -1,0 +1,49 @@
+body {/*Fundo*/
+    background-image: linear-gradient(90deg, #8E0E00, #1F1C18);/*Cor de fundo site*/
+}
+
+#title {/*Title externo*/
+    text-align: center;/*Alinhar ao centro Title externo*/
+    padding: 20px;/*Padding acima*/
+}
+
+h1 {/*Titulo*/
+    font-family: Helvetica;/*Fonte do titulo*/
+    color: white;/*Cor do titulo*/
+}
+
+input {/*Input*/
+    width: 15em;/*Largura do input*/
+    height: 4em;/*Altura do input*/
+    border-radius: white;/*Bordas do input*/
+    font-family: Helvetica;/*Fonte do input*/
+    margin-right: 0.5em;/*Margem a direita*/
+    margin-top: 0.5em;/*Margem acima*/
+    margin-bottom: 0.5em;/*Margem abaixo*/
+}
+input:hover {/*Sobre o input*/
+    cursor: pointer;/*Cursor sobre o input*/
+    background-color: yellow;/*Cor do cursor sobre o input*/
+}
+
+button {/*Botão*/
+    width: 6em;/*Largura do botão*/
+    height: 4.5em;/*Altura do botão*/
+    border-radius: yellow;/*Bordas do botão*/
+    background-color: yellow;/*Cor do botão*/
+}
+button:hover {/*Sobre o botão*/
+    cursor: pointer;/*Cursor sobre o botão*/
+    background-color: yellowgreen;/*Cor do cursor sobre o botão*/
+}
+
+#box {/*Box*/
+    position: absolute;/*Posição*/
+    top: 50%;/*Posição acima*/
+    left: 50%;/*Posição a esquerda*/
+    transform: translate(-50%, -50%);/*Posição ajuste*/
+    background-image: linear-gradient(90deg, #000000, #434343);/*Cor do box*/
+    padding: 40px;/*Espaço entre as margens*/
+    border-radius: 30px;/*Bordas redondas do box*/
+    box-shadow: 0px 15px 25px 10px gold;/*RGB em volta do Box*/
+}
